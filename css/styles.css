@@ -1,130 +1,56 @@
 /****************** TAG SELECTORS ******************/
-body {
-    background-color: #060047;
-}
 
-/*<!--Horizontal Rule-->*/
-hr {
-    /*border: 5px dotted #ffffff;*/
-    border-bottom-style: dotted; 
-    border-bottom-width: 10px;
-    border-color: whitesmoke;
-    background-color: #060047;
-    /*height: 5px;
-    background-color: white;
-    border-radius: 5px;
-    width: 95%;*/
-}
-
-
-h1 {
-    color: #E90064;
-    font-family: monospace;
-}
-
-h2 {
-    color: #E90064;
-    font-family: monospace;
-    font-size: x-large;
-}
-
-h3 {
-    color: #E90064;
-    font-family: monospace;
-    font-size: x-large;
-}
-
-p {
-    color: whitesmoke;
-    font-family: courier;
-
-}
-
-li {
-    color: whitesmoke;
-    font-family: courier;
-}
-
-table {
-    color: whitesmoke;
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
     text-align: center;
-    font-family: courier;
-    /*border: 2px dashed powderblue;
-    margin: 10px;*/
 }
 
-td {
-    color: whitesmoke;
-    text-align: center;
-    font-family: courier;
-    /*border: 2px dashed powderblue;
-    margin: 10px;*/
+h1{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
-th {
-    color: whitesmoke;
-    text-align: center;
-    font-family: courier;
-    /*border: 2px dashed powderblue;
-    margin: 50px;*/
+h2{
+    margin: 0;
+    font-family: 'Noto Serif Tamil', serif;
 }
 
-.table-Work
-{
-    color: whitesmoke;
-    text-align: center;
-    font-family: courier;
-    border: 4px double #B3005E;
-    margin: 50px;
+h3{
+    margin: 0;
+    font-family: 'Noto Serif Tamil', serif;
 }
-
-
-.table-skills
-{
-    color: whitesmoke;
-    text-align: center;
-    font-family: courier;
-    background-color: #3F0071;
-    width: 40%;
-}
-
-.first-table
-{
-    color: whitesmoke;
-    text-align: center;
-    font-family: courier;
-    border: 4px double powderblue;
-    margin: 50px;
-}
-
-a /*Links*/ 
-{
-    color: #FF5F9E;
-}
-
-label
-{
-    color: whitesmoke;
-    text-align: center;
-    font-family: courier;
-}
-
 
 
 /****************** CLASS SELECTORS ******************/
 
-/* .chido {
-    background-color: brown;
+.top-container
+{
+    height: 200 px;
+    background-color:  mediumpurple;
+    padding: 50px;
+    position: relative;
+    width: 200px;
+
 }
 
-.what {
-    border-style: dashed;
-    border-width: 2px;
-    border-color: pink;
-} */
+.mid-container
+{
+    height: 200px;
+    background-color:  pink;
+    padding: 50px;
+    width: 200px;
+    position: relative;
+    left: 200px
+}
 
-/****************** ID SELECTORS ******************/
-
-/* #boss {
-    background-color: aqua;
-} */
+.bot-container
+{
+    height: 200px;
+    background-color:  blueviolet;
+    padding: 50px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+}
