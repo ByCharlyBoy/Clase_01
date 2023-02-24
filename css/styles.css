@@ -15,13 +15,13 @@ h1{
 }
 
 h2{
-    color: whitesmoke;
+    color: #E90064;
     margin: 0;
     font-family: 'Noto Serif Tamil', serif;
 }
 
 h3{
-    color: whitesmoke;
+    color: #6F1AB6;
     margin: 0;
     font-family: 'Noto Serif Tamil', serif;
 }
@@ -60,6 +60,13 @@ p{
     position: relative;
     /*z-index: -1;*/
     top: 100px; 
+}
+
+.YoYo
+{
+    border-radius: 100%;
+    width: 300px;
+    /*height: 300px; jugarle al burger o hacerla cuadrada o redonda*/
 }
 
 .owl-top 
@@ -112,4 +119,25 @@ p{
     font-weight: 800;
     color: aliceblue;
     
+}
+
+.skill-row
+{
+    display: inline-block;
+    margin: 70px 100px;
+}
+
+.skill1-img
+{
+    width: 100px;
+}
+
+.skill2-img
+{
+    width: 100px;
+}
+
+.skill3-img
+{
+    width: 100px;
 }
