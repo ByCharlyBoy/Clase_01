@@ -27,30 +27,15 @@ h3{
 
 .top-container
 {
-    height: 200 px;
-    background-color:  mediumpurple;
-    padding: 50px;
-    position: relative;
-    width: 200px;
-
+   
 }
 
 .mid-container
 {
-    height: 200px;
-    background-color:  pink;
-    padding: 50px;
-    width: 200px;
-    position: relative;
-    left: 200px
+
 }
 
 .bot-container
 {
-    height: 200px;
-    background-color:  blueviolet;
-    padding: 50px;
-    width: 200px;
-    position: relative;
-    left: 400px;
+  
 }
