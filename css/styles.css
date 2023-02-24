@@ -1,26 +1,35 @@
 /****************** TAG SELECTORS ******************/
 
 body{
-    background-color: black;
+   background-color: black; 
     margin: 0;
     font-family: 'Merriweather', serif;
     text-align: center;
 }
 
 h1{
+    color: whitesmoke;
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
 
 }
 
 h2{
+    color: whitesmoke;
     margin: 0;
     font-family: 'Noto Serif Tamil', serif;
 }
 
 h3{
+    color: whitesmoke;
     margin: 0;
     font-family: 'Noto Serif Tamil', serif;
+}
+
+p{
+    color: whitesmoke;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -28,28 +37,79 @@ h3{
 
 .top-container
 {
-   
+  /*background: linear-gradient(blue, black, purple); color gradiante*/ 
+  background-color: black;
 }
 
 .mid-container
 {
-
+    background-color: black;
 }
 
 .bot-container
 {
-  
+   position: relative; 
+   background-color: black; 
 }
 
-.Moons
+.Owl_Title
 {
-
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    /*z-index: -1;*/
+    top: 100px; 
 }
 
-.eyes-top 
+.owl-top 
 {
-    width: 180px;
+    width: 40px;
     position:  absolute;
-    top: 50px;
-    right: 300px;
+    top: 20px;
+    right: 20px; /*jugarle*/
+}
+
+.BoYBoY-bot
+{
+    width: 150px;
+    position:  absolute;
+    bottom: 10px;
+    left: 100px;
+}
+
+.BoYBoY-bot2
+{
+    width: 150px;
+    position:  absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
+.name 
+{
+  position: relative;
+  margin: 0 auto;
+  /*width: 50%;*/
+  font-size: 75px;
+  bottom: 500px; 
+  color: aliceblue; 
+  background-color: #e9e8e817;
+  display: inline-block;
+  padding: 5px 50px;
+  border-radius: 40px;
+  
+
+}
+
+.subtitle
+{
+    position: relative;
+    margin: 0 auto;
+    /*width: 50%;*/
+    bottom: 500px; 
+    font-size: 40px;
+    font-weight: 800;
+    color: aliceblue;
+    
 }
