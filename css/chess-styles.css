@@ -1,0 +1,19 @@
+.square {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.white {
+	background-color: #F9DBBB;
+}
+
+.black {
+	background-color: #B99B6B;
+}
+
+.row {
+	display: block;
+	margin-bottom: 6px;
+}
+
