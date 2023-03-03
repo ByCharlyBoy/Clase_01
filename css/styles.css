@@ -141,3 +141,88 @@ p{
 {
     width: 100px;
 }
+
+.software-row
+{
+    text-align: left;
+    width: 60%;
+    margin: 50px auto;
+    /*  */
+}
+
+.software-row:nth-child(even)
+{
+    text-align: left;
+}
+
+.software-row:nth-child(odd)
+{
+    text-align: right;
+}
+
+.software1-img
+{
+
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+
+.software2-img
+{
+    width: 100px;
+    float: right; 
+
+}
+
+.footer-hr
+{
+    margin: 0;
+}
+
+.contact-me
+{
+
+}
+
+.get-in-touch
+{
+    color: aliceblue;
+}
+
+.together
+{
+    margin: 10px  0 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.together.hover
+{
+    font-family: cursive;
+}
+
+.copyright
+{
+    margin: 0;
+}
+
+.btn {
+    margin: 30px 0;
+    display: inline-block;
+    background: #E90064;
+    background-image: linear-gradient(to bottom, #E90064, #6F1AB6);
+    border-radius: 17px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    border: solid #E90064 2px;
+    text-decoration: none;
+  }
+
+
+  .footer-link
+  {
+    /*text-decoration: none;*/
+    color: red;
+    margin: 5px 10px;
+  }
